@@ -24,6 +24,10 @@
 	width: 500px;
 }
 
+/*.ux-progress {
+	background-color: #ff69b4;;
+}*/
+
 .skill-title {
 	width: 250px;
 	float: left;
@@ -32,5 +36,4 @@
 .skill-level {
 	width: 250px;
 	/*float: right;*/
-
 }
