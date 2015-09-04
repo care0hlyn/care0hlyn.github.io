@@ -18,3 +18,19 @@
 .list-group-item {
 	border: none;
 }
+
+.progress {
+	height: 15px;
+	width: 500px;
+}
+
+.skill-title {
+	width: 250px;
+	float: left;
+}
+
+.skill-level {
+	width: 250px;
+	/*float: right;*/
+
+}
