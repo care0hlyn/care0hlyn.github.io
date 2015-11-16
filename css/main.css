@@ -3,7 +3,7 @@
 }
 
 .container {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .color {
@@ -23,6 +23,14 @@
 .progress {
 	height: 15px;
 	width: 500px;
+}
+
+.personal {
+	padding-top: 50px;
+}
+
+h1 {
+	font-size: 50px;
 }
 
 /*.ux-progress {
