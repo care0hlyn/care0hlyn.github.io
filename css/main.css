@@ -52,6 +52,10 @@ a.research:hover {
 	background-color: #ff69b4;	
 }
 
+a:hover {
+	background-color: #ff69b4;
+}
+
 a.cv:hover {
 	background-color: #99FF00;	
 }
