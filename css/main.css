@@ -207,3 +207,12 @@ h1 {
 }
 
 
+/*.
+Tweet Spot CSS
+}*/
+
+div {
+    background: url(tweet/img/arch/logo.jpg);
+    background-size: 80px 60px;
+    background-repeat: no-repeat;
+}
