@@ -15,7 +15,7 @@
     <link href="../css/tweet.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-2.1.4.js"></script>
     <script src="js/utils.js"></script>
-
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
   </script>
 
 </head>
@@ -23,8 +23,8 @@
 <div class="container" style="padding-left:100px; padding-right:100px">
     <br>
     <a href="../index.html" class="about"> < BACK</a>
-    <center><h3 style="background-color:#ff69b4;">The Tweet Spot | @spottedatgould</h3></center>
     <center><img src="img/arch/logo.jpg" alt="logo"></center>
+    <center><h3 style="background-color:#ff69b4;">The Tweet Spot | @spottedatgould</h3></center>
 
     <h3>Research Question:</h3>
     <p>How might we make Gould Hall a responsive environment as a social commentary?</p>
@@ -37,8 +37,48 @@
 
     <p>See who was spotted at Gould Hall on Twitter.</p>
 
-    <h3>Code</h3>
+    <h3>How does this work?</h3>
+    <p>Using Arduino, a pressure sensor, sonar sensor, Processing, web cam and a computer, a user walks towards the webcam and the photo screen displayed on the monitor becomes more or less pixelated depending on the distance of the user and the webcam. Once the user steps on the the mat, the pressure sensor is triggered and a picture of the user is sent automatically towards Twitter, where a live feed is currently being hosted at @SpottedAtGould.</p>
     <center><img src="img/arch/1.jpg" alt="logo">&nbsp;<img src="img/arch/2.jpg" alt="logo"></center>
+
+    <h3>Follow the live Twitter feed, @spottedatgould:</h3>
+    <a class="embedly-card" href="https://twitter.com/SpottedAtGould">UW Arch498 Project (@SpottedAtGould) | Twitter</a>
+    <h3>Processing Code:</h3>
+
+    <h3>Arduino Code:</h3>
+    <pre><code>
+        unsigned long dur = 200L;
+        unsigned int freq = 100;
+
+        void setup() {
+            // put your setup code here, to run once:
+            pinMode(12,OUTPUT);
+            pinMode(7, INPUT_PULLUP);
+            Serial.begin(9600);
+        }
+
+        void loop() {
+              // put your main code here, to run repeatedly:
+            freq = analogRead( A0 );
+            Serial.print('d');
+            Serial.println(freq);
+            if( freq < 200 ){
+               tone(12,freq);
+               delay(400);
+               noTone(12);
+            }
+            //freq=freq+1;
+            delay(500);
+
+            if (!digitalRead(7)) {
+             Serial.println('s');
+              tone(12, freq + 1000);
+                 delay(400);
+               noTone(12);
+            }
+        }
+    </pre></code>
+
 </div> <!--container-->
 </body>
 </html>
