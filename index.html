@@ -1,125 +1,180 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Carolyn Huynh</title>
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<div class="container">
-			<div id="splitlayout" class="splitlayout">
-				<div class="intro">
-					<div class="side side-left">
-						<div class="intro-content">
-							<!-- <div><img src="img/new3.jpg" alt="profile1"></div> -->
-							<div><h2>"A product is more than the product.<br> It is a cohesive,<br> integrated set of experiences."<br><br> -Donald Norman</h2></div>
-							<h1><span>##projects</span><span></span></h1>
-						</div>
-						<div class="overlay"></div>
-					</div>
-					<div class="side side-right">
-						<div class="intro-content">
-							<div><h2>“By all means break the rules,<br> and break them beautifully,<br> deliberately and well.”<br><br> -Robert Bringhurst </h2></div>
-							<br>
-							<h1><span>##about </span><span></span></h1>
-						</div>
-						<div class="overlay"></div>
-					</div>
-				</div><!-- /intro -->
-				<div class="page page-right">
-					<div class="page-inner">
-						<section>
-							<h2>Carolyn Huynh</h2>
-							<p>User Experience Designer</p>
-							<br>
-							<table>
-								<tr>
-									<td><img src="img/new.jpg" class="img-circle" alt="profile1"></td>
-									<td class="bio">
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
 
-									<center><a href="/chuynh.pdf" class="cv"> CV</a> | 
-								  <a href="https://twitter.com/care0hlyn"> Twitter</a> | 
-								  <a href="https://www.linkedin.com/in/carolynkimhuynh"> LinkedIn</a> |
-								  <a href="https://github.com/care0hlyn"> GitHub</a></center>
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Carolyn K. Huynh</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="styles.css" />
 
 
-									<p>I'm a front end developer, user experience designer and graduate student at the University of Washington in the Human Centered Design &amp; Engineering program.</p>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
 
-									<p>My concentration is on user centered design and rapid prototyping -- specializing in both 2D and 3D environments. I am expected to graduate in June 2017.</p>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                    <span class="mdl-layout__title">Carolyn Kim Huynh</span>
+                    <span class="mdl-layout__title">User Experience Designer</span>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                    <a class="mdl-navigation__link" href="about.html">About</a>
+                    <a class="mdl-navigation__link" href="images/ckhuynh.pdf">CV</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                <a class="mdl-navigation__link" href="about.html">About</a>
+                <a class="mdl-navigation__link" href="images/ckhuynh.pdf">CV</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width">
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/goline.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">GOLINE</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        GOLINE is an iOS mobile app that helps people reduce their time waiting in line at busy venues for music shows, sport events, product launches, and other events.
+                        <br>
+                        <br>
+                        Anyone who has gotten bored waiting for two hours out in the cold will no longer need to stand in that line.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="goline.html">Read More</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/tweet.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">The Tweet Spot</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        An interactive hardware installation that explores interconnectedness of reality and social media using Arduino, Processing and a web cam.
+                        <br>
+                        <br>
+                        A picture of the user captured and automatically towards Twitter, where a live feed is currently being hosted at @SpottedAtGould.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="tweet.html">Read more</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/aws.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Amazon Machine Learning</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        A usability study in partnership with Amazon Web Services, Machine Learning that explores the onboarding process experience for the ML service.
+                        <br>
+                        <br>
+                        Some details are ommitted due to a NDA.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="aws.html">Read more</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/figloans.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Figloans</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Figloans was part of the TechStars Spring '16 incubator program in Seattle, WA. Figloans is trying to disrupt the payday loans services model.
+                        <br>
+                        <br>
+                        I helped build the mission and social data page using HTML/CSS/Chart.js and Ruby during my internship there.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://www.figloans.com/socialdata">Go to site</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/paws.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Paws for Relief</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        How can we provide students with temporary relief who suffer from situational depression?
+                        <br>
+                        <br>
+                        'PAWS' is a mobile app that provides comfort to those with situational depression by connecting them with one-on-one animal-assisted therapy.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="paws.html">Read more</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/converse.png" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">conVRse</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        conVRse, a VR language-learning app originally prototyped on the cardboard then moved to the HTC Vive. 
+                        <br>
+                        <br>
+                        This VR prototype was built to help those want to learn Spanish in an immersive environment through a job stiumlation game.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="convrse.html">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo"></div>
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+</body>
 
-									<p>My ideology in life best aligns with the work of Bertrand Russell. There is no hierarchy between the pursuit of love and knowledge -- and that's how I try to live my life. I'm an amateur photographer, writer, traveler (backpacked through India, Mexico) and burgeoning yogi.</p>
-
-									<p>Thanks for stopping by and feel free to email me at ckhuynh20@gmail.com</p>
-
-								</td>
-
-								</tr>
-							</table>
-										
-									
-						</section>
-						<section>
-							<h2>Design Process</h2>
-							<ul>
-								<ol>
-									<li>Explore</li>
-									<p>I've been rigorously taught to incorporate the UCD process -- the user centered design method -- into everything that I do. Research is the foundation for all things, and often times, many people overlook the importance of it for the "quick and dirty" wireframes. Through traditional qualitative methods, IDEO cards, discovering pain points, user scenarios, creating personas, surveys, storyboarding, etc, I try to understand the user as much as possible. Beyond the traditional UCD method, I am an advocate for <b>exploration</b> in research to foster creativity and innovation.</p>
-									<li>Ideate</li>
-									<p>There is nothing more crucial than feedback through the design lifecycle. I welcome the negative, the positive, the shouting, the calm and collected and collaborativeness of it all. UX is the wild west of tech, and it is only through teamwork and feedback from an awesome team and our kickass users, that we can learn what we need to change. I'm all about change (I once moved three cities in three years). Forward, onward and keep ideating until you get it right for the user.</p>
-									<li>Empathy</li>
-									<p>Somebody once told me to be kind, be humble and confident -- but the most important one on that list is to be kind. I try my best to empathize with the user as much as possible. Ask the right questions, find the pain points. Fix them, impove it and <b>make it work.</b></p>
-									<li>Execute</li>
-									<p>I am a fan of collaborative tools that makes it easy to share among a team and tools that allow you to both wireframe, prototype and code effortlessly. From the Adobe suite, Sketch, Bootstrap, to pure javascript, I know how to make a pen and paper sketch come alive and get it into the user's hands for a usability test.</p>
-									<li>Delight</li>
-									<p>Last but certainly not least, I aim to delight my customers. Humor has always been a part of my life (former Conan O'Brian monologue intern!) and I believe not only in the functionality of a product, but the delight factor as well.</p>
-								</ol>
-							</ul>
-						</section>
-						<section>
-							<!-- <center><h3>Thanks for stopping by!</h3></center> -->
-							<center><p>ckhuynh20@gmail.com</p></center>
-						</section>
-						</section>
-					</div><!-- /page-inner -->
-				</div><!-- /page-right -->
-				<div class="page page-left">
-					<div class="page-inner">
-						<section>
-							<!-- <p>##hardware</p> -->
-							<a href="tweet.html"><img src="img/tweetcover.png" alt="profile1"></a>
-							<a href="goline.html"><img src="img/goline.png" alt="profile1"></a>
-							<a href="paws.html"><img src="img/paws.png" alt="profile1"></a>
-							<a href="amazon.html"><img src="img/amazon.png" alt="profile1"></a>
-							<a href="drg.html"><img src="img/drg.png" alt="profile1"></a>
-							<a href="tamagotchi.html"><img src="img/tamagotchi.png" alt="profile1"></a>
-						</section>
-						<section>
-						<!-- 	<p>##ux</p>
-							<a href="tweet.html"><img src="img/goline.png" alt="profile1"></a>
-							<a href="tweet.html"><img src="img/paws.png" alt="profile1"></a> -->
-						</section>
-						<section>
-							<!-- <p>##research</p> -->
-				<!-- 			<a href="tweet.html"><img src="img/amazon.png" alt="profile1"></a>
-							<a href="tweet.html"><img src="img/drg.png" alt="profile1"></a> -->
-						</section>
-						<section>
-							<!-- <p>##vr/ar</p> -->
-							<!-- <a href="tweet.html"><img src="img/tamagotchi.png" alt="profile1"></a> -->
-						</section>
-					</div><!-- /page-inner -->
-				</div><!-- /page-left -->
-				<a href="#" class="back back-right" title="back to intro">&rarr;</a>
-				<a href="#" class="back back-left" title="back to intro">&larr;</a>
-			</div><!-- /splitlayout -->
-		</div><!-- /container -->
-		<script src="js/classie.js"></script>
-		<script src="js/cbpSplitLayout.js"></script>
-	</body>
 </html>
