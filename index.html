@@ -1,203 +1,91 @@
-<!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      https://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A portfolio template that uses Material Design Lite.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Carolyn K. Huynh</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-pink.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300" rel="stylesheet">
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.geom.js"></script>
 
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-
 <body>
-    <div class="new-container">
-        <div class="fixed">
-            <b>Carolyn K. Huynh</b><br>
-            User Experience Designer<br>
-            <br>
-            <br>
-            Currently: IxD @Google
-            <br>
-            <br>
-            <!-- Portfolio avaible upon request. -->
-            <br>
-            <br>
-            <a href="https://www.linkedin.com/in/carolynkimhuynh/">linkedin</a> | <a href="https://twitter.com/care0hlyn"> twitter</a> | <a href="https://www.instagram.com/ck.huynh/">instagram</a><br>
-            ckhuynh20@gmail.com
-        </div>
-    </div>
+
+  <div id="chart">
+  </div>
+
+  <div class="fixed">
+    <div class="title">Carolyn Huynh</div>
+    UX Designer // Rapid Prototyper<br>
+    <br>
+    I'm an interaction designer at Google Cloud in Seattle, WA. My interests include design future thinking, HCI, data vis and STEM education.<br>
+    <br>
+    I have a M.S. from the University of Washington from the Human Centered Design & Engineering program. My graduating capstone project focused on empowering personal safety for marginalized groups through the use of drones.<br>
+    <br>
+    Feel free to email me at ckhuynh20@gmail.com!
+    <br>
+    <br>
+    <a href="https://www.linkedin.com/in/carolynkimhuynh/">linkedin</a> | <a href="https://twitter.com/care0hlyn"> @care0hlyn</a> | <a href="https://www.instagram.com/ck.huynh/">instagram</a><br>
+</div>
 
 
+  <script type="text/javascript">
+  var w = 3000,
+      h = 800;
 
-<!--     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
-            <div class="mdl-layout__header-row portfolio-logo-row">
-                <span class="mdl-layout__title">
-                    <div class="portfolio-logo"></div>
-                    <span class="mdl-layout__title">Carolyn Kim Huynh</span>
-                    <span class="mdl-layout__title">User Experience Designer</span>
-                </span>
-            </div>
-            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
-                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                    <a class="mdl-navigation__link" href="about.html">About</a>
-                    <a class="mdl-navigation__link" href="images/ckhuynh.pdf">CV</a>
-                </nav>
-            </div>
-        </header>
-        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                <a class="mdl-navigation__link" href="about.html">About</a>
-                <a class="mdl-navigation__link" href="images/ckhuynh.pdf">CV</a>
-            </nav>
-        </div>
-        <main class="mdl-layout__content">
-            <div class="mdl-grid portfolio-max-width">
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/go.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">GOLINE</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        GOLINE is an iOS mobile app that helps people reduce their time waiting in line at busy venues for music shows, sport events, product launches, and other events.
-                        <br>
-                        <br>
-                        Anyone who has gotten bored waiting for two hours out in the cold will no longer need to stand in that line.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="goline.html">Read More</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/tweetspot.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">The Tweet Spot</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        An interactive hardware installation that explores interconnectedness of reality and social media using Arduino, Processing and a web cam.
-                        <br>
-                        <br>
-                        A picture of the user is captured and automatically uploaded to Twitter, where a live feed is currently being hosted at @SpottedAtGould.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="tweet.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/aws.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Amazon Machine Learning</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        A usability study in partnership with Amazon Web Services, Machine Learning that explores the onboarding process experience for the ML service.
-                        <br>
-                        <br>
-                        Some details are ommitted due to a NDA.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="aws.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/fig.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Figloans</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Figloans was part of the TechStars Spring '16 incubator program in Seattle, WA. Figloans is trying to disrupt the payday loans services model.
-                        <br>
-                        <br>
-                        I helped build the mission and social data page using HTML/CSS/Chart.js and Ruby during my internship there.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://www.figloans.com/socialdata">Go to site</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/paws.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Paws for Relief</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        How can we provide students with temporary relief who suffer from situational depression?
-                        <br>
-                        <br>
-                        'PAWS' is a mobile app that provides comfort to those with situational depression by connecting them with one-on-one animal-assisted therapy.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="paws.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/converse.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">conVRse</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        conVRse, a VR language-learning app originally prototyped on the cardboard then moved to the HTC Vive. 
-                        <br>
-                        <br>
-                        This VR prototype was built to help those want to learn Spanish in an immersive environment through a job stimulation game.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="convrse.html">Read more</a>
-                    </div>
-                </div>
-            </div>
-            <footer class="mdl-mini-footer">
-                <div class="mdl-mini-footer__left-section">
-                    <div class="mdl-logo"></div>
-                </div>
-                <div class="mdl-mini-footer__right-section">
-                    <ul class="mdl-mini-footer__link-list">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </div>
-            </footer>
-        </main>
-    </div> -->
+  var vertices = d3.range(100).map(function(d) {
+    return [Math.random() * w, Math.random() * h];
+  });
 
+  var svg = d3.select("#chart")
+    .append("svg:svg")
+      .attr("width", w)
+      .attr("height", h);
+  var paths, points, clips;
+  clips = svg.append("svg:g").attr("id", "point-clips");
+  points = svg.append("svg:g").attr("id", "points");
+  paths = svg.append("svg:g").attr("id", "point-paths");
+  
+  clips.selectAll("clipPath")
+      .data(vertices)
+    .enter().append("svg:clipPath")
+      .attr("id", function(d, i) { return "clip-"+i;})
+    .append("svg:circle")
+      .attr('cx', function(d) { return d[0]; })
+      .attr('cy', function(d) { return d[1]; })
+      .attr('r', 20);
 
+  paths.selectAll("path")
+      .data(d3.geom.voronoi(vertices))
+    .enter().append("svg:path")
+      .attr("d", function(d) { return "M" + d.join(",") + "Z"; })
+      .attr("id", function(d,i) { 
+        return "path-"+i; })
+      .attr("clip-path", function(d,i) { return "url(#clip-"+i+")"; })
+      .style("fill", d3.rgb(230, 230, 230))
+      .style('fill-opacity', 0.4)
+      .style("stroke", d3.rgb(200,200,200));
+    
+  paths.selectAll("path")
+    .on("mouseover", function(d, i) {
+      d3.select(this)
+        .style('fill', d3.rgb(31, 120, 180));
+      svg.select('circle#point-'+i)
+        .style('fill', d3.rgb(31, 120, 180))
+    })
+    .on("mouseout", function(d, i) {
+      d3.select(this)
+        .style("fill", d3.rgb(230, 230, 230));
+      svg.select('circle#point-'+i)
+        .style('fill', 'black')
+    });
 
-    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  points.selectAll("circle")
+      .data(vertices)
+    .enter().append("svg:circle")
+      .attr("id", function(d, i) { 
+        return "point-"+i; })
+      .attr("transform", function(d) { return "translate(" + d + ")"; })
+      .attr("r", 2)
+      .attr('stroke', 'none');
+
+  </script>
 </body>
-
 </html>

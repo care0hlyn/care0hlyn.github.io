@@ -14,12 +14,20 @@
   font-family: 'Roboto Mono', monospace;
 }
 
+
+.title {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 30px;
+}
+
 .fixed {
     position: fixed;
     padding-left: auto;
     padding-right: auto;
     top:  35%;
     left: 10%;
+    font-family: 'Oxygen', sans-serif;
+    width: 500px;
     /*margin: -100px 0 0 -150px;*/
     /*bottom: 0;*/
     /*right: 0;*/
@@ -31,6 +39,17 @@
   font-size: 14px;
   text-align: center;
   font-weight: 300;
+}
+
+
+#chart {
+  position: absolute;
+  z-index: 1;
+}
+
+.fixed {
+  position: relative;
+  z-index: 2;
 }
 
 .is-compact .mdl-layout__title span {
