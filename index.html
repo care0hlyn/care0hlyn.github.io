@@ -1,9 +1,8 @@
 <html>
 <head>
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Oxygen:300" rel="stylesheet">
-    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
-    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.geom.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 
 </head>
 <body>
@@ -13,79 +12,14 @@
 
   <div class="fixed">
     <div class="title">Carolyn Huynh</div>
-    UX Designer // Rapid Prototyper<br>
+    User Experience Designer<br>
     <br>
-    I'm an interaction designer at Google Cloud in Sele, WA. My interests include design future thinking, HCI, data vis and STEM education.<br>
+    I'm an interaction designer at Google Cloud in Seattle, WA. My interests include design future thinking, HCI, data vis and STEM education.<br>
     <br>
     I have a M.S. from the University of Washington from the Human Centered Design & Engineering program. My graduating capstone project focused on empowering personal safety for marginalized groups through the use of drones.<br>
-    <br>
-    Feel free to email me at <a href="mailto:ckhuynh20@gmail.com">ckhuynh20@gmail.com</a>
-    <br>
-    <br>
-    <a href="https://www.linkedin.com/in/carolynkimhuynh/">linkedin</a> // <a href="https://twitter.com/care0hlyn"> @care0hlyn</a> // <a href="https://github.com/care0hlyn">github</a>
 </div>
 
 
-  <script type="text/javascript">
-  var w = 3000,
-      h = 800;
-
-  var vertices = d3.range(100).map(function(d) {
-    return [Math.random() * w, Math.random() * h];
-  });
-
-  var svg = d3.select("#chart")
-    .append("svg:svg")
-      .attr("width", w)
-      .attr("height", h);
-  var paths, points, clips;
-  clips = svg.append("svg:g").attr("id", "point-clips");
-  points = svg.append("svg:g").attr("id", "points");
-  paths = svg.append("svg:g").attr("id", "point-paths");
-  
-  clips.selectAll("clipPath")
-      .data(vertices)
-    .enter().append("svg:clipPath")
-      .attr("id", function(d, i) { return "clip-"+i;})
-    .append("svg:circle")
-      .attr('cx', function(d) { return d[0]; })
-      .attr('cy', function(d) { return d[1]; })
-      .attr('r', 20);
-
-  paths.selectAll("path")
-      .data(d3.geom.voronoi(vertices))
-    .enter().append("svg:path")
-      .attr("d", function(d) { return "M" + d.join(",") + "Z"; })
-      .attr("id", function(d,i) { 
-        return "path-"+i; })
-      .attr("clip-path", function(d,i) { return "url(#clip-"+i+")"; })
-      .style("fill", d3.rgb(230, 230, 230))
-      .style('fill-opacity', 0.4)
-      .style("stroke", d3.rgb(200,200,200));
-    
-  paths.selectAll("path")
-    .on("mouseover", function(d, i) {
-      d3.select(this)
-        .style('fill', d3.rgb(31, 120, 180));
-      svg.select('circle#point-'+i)
-        .style('fill', d3.rgb(31, 120, 180))
-    })
-    .on("mouseout", function(d, i) {
-      d3.select(this)
-        .style("fill", d3.rgb(230, 230, 230));
-      svg.select('circle#point-'+i)
-        .style('fill', 'black')
-    });
-
-  points.selectAll("circle")
-      .data(vertices)
-    .enter().append("svg:circle")
-      .attr("id", function(d, i) { 
-        return "point-"+i; })
-      .attr("transform", function(d) { return "translate(" + d + ")"; })
-      .attr("r", 2)
-      .attr('stroke', 'none');
-
-  </script>
+ 
 </body>
 </html>

@@ -11,8 +11,7 @@
 }
 
 .new-container {
-  font-family: 'Roboto Mono', monospace;
-}
+  font-family: 'Roboto', sans-serif;}
 
 
 .title {
@@ -26,7 +25,8 @@
     padding-right: auto;
     top:  35%;
     left: 10%;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
     width: 500px;
     /*margin: -100px 0 0 -150px;*/
     /*bottom: 0;*/
