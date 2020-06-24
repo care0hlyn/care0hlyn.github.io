@@ -18,7 +18,9 @@ permalink: /about
 
 > B.A. Journalism and Public Affairs / Seattle University
 
-> M.S. Human Centered Design & Engineering / University of Washington.
+> M.S. Human Centered Design & Engineering / University of Washington
+
+> [In-progress] Certificate in Cybersecurity / University of Washington
 
 > [In-progress] MFA Creative Writing & Poetics / University of Washington Bothell
 
