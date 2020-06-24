@@ -16,7 +16,7 @@ permalink: /about
 
 # education
 
-> B.A. Journalism and Publc Affairs / Seattle University
+> B.A. Journalism and Public Affairs / Seattle University
 
 > M.S. Human Centered Design & Engineering / University of Washington.
 
