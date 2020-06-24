@@ -16,8 +16,9 @@ permalink: /
 5. [LAUNCHED] [Recommendation Hub]
 6. [VISION WORK] [One Stop Policy Shop](assets/vision.pdf)
 7. [EAP] [Access Elevation](assets/accesselevation.pdf)
-8. [LAUNCHED] [Binary Authorization](assets/binauth.pdf)
-9. [LAUNCHED] [SuperQuota](assets/portfolio/superquota.pdf)
+8. [BETA] [Cloud Gaming Server Deployment](assets/accesselevation.pdf)
+9. [LAUNCHED] [Binary Authorization](assets/binauth.pdf)
+10. [LAUNCHED] [SuperQuota](assets/portfolio/superquota.pdf)
 
 # Misc work
 
