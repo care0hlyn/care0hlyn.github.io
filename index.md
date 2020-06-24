@@ -10,7 +10,7 @@ permalink: /
 > Everything here is under NDA, please do not share out this link.
 
 1. [LAUNCHED] [Self Driving Cloud, IAM Role Recommender](assets/portfolio/rolerecommender.pdf)
-2. [LAUNCHED] [Self Driving Cloud, Troubleshooter](assets/troubleshooter.pdf)
+2. [LAUNCHED] [Self Driving Cloud, Troubleshooter](assets/portfolio/troubleshooter.pdf)
 3. [LAUNCHED] [Self Driving Cloud, Simulator](assets/simulator)
 4. [LAUNCHED] [Self Driving Cloud, Policy Analyzer](assets/analyzer.pdf)
 5. [LAUNCHED] [Recommendation Hub]
