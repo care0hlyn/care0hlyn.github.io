@@ -1,2 +1,21 @@
-theme: jekyll-theme-minimal
-permalink: /blog/:year/:month/:day/:title
+# Example Site settings
+
+#google_analytics: UA-NNNNNNNN-N
+
+header_pages:
+ - index.md
+ - about.md
+ - contact.md
+
+show_excerpts: true
+
+footer: 'follow me on twitter <a href="https://twitter.com/carehuynh/">@carehuynh</a>'
+
+#style: light # dark (default) or light
+#listen_for_clients_preferred_style: true # true or false (default)
+
+plugins:
+  - jekyll-seo-tag
+
+theme: jekyll-theme-console
+
