@@ -27,3 +27,7 @@ permalink: /
 # Design Patent
 
 9. [FILED] GP-300272-00-US-DP on 09/16/2019, Surfacing Machine Learning Recommendations in a Code Diff Pattern
+
+# Graduate school capstone
+
+1. [University of Washington] [Scout, a futuristic women's safety app utilizing drone technology](assets/portfolio/scout.pdf)
