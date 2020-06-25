@@ -11,7 +11,7 @@ permalink: /
 2. [LAUNCHED] [Self Driving Cloud, Troubleshooter](assets/portfolio/troubleshooter.pdf)
 3. [LAUNCHED] [Self Driving Cloud, Simulator](assets/simulator)
 4. [LAUNCHED] [Self Driving Cloud, Policy Analyzer](assets/analyzer.pdf)
-5. [LAUNCHED] [Recommendation Hub]
+5. [LAUNCHED] [Recommendation Hub](assets/portfolio/rechub.pdf)
 6. [VISION WORK] [One Stop Policy Shop](assets/vision.pdf)
 7. [EAP] [Access Elevation](assets/accesselevation.pdf)
 8. [BETA] [Cloud Gaming Server Deployment](assets/accesselevation.pdf)
