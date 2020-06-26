@@ -10,14 +10,14 @@ These are the only products I've worked on that I can host on a public site. I a
 
 1. [GA/LAUNCHED] [Self Driving Cloud, IAM Role Recommender](assets/portfolio/rolerecommender.pdf)
 2. [GA/LAUNCHED] [Self Driving Cloud, Troubleshooter](assets/portfolio/troubleshooter.pdf)
-3. [BETA/LAUNCHED] [Self Driving Cloud, Simulator](assets/simulator)
-4. [BETA/LAUNCHED] [Self Driving Cloud, Policy Analyzer](assets/analyzer.pdf)
+3. [BETA/LAUNCHED] [Self Driving Cloud, Simulator](assets/portfolio/simulator.pdf)
+4. [BETA/LAUNCHED] [Self Driving Cloud, Policy Analyzer](assets/portfolio/analyzer.pdf)
 5. [GA/LAUNCHED] [Binary Authorization](assets/portfolio/binauth.pdf)
 6. [GA/LAUNCHED] [SuperQuota](assets/portfolio/quota.pdf)
 
 # Google Game Servers
 
-1. [BETA/LAUNCHED] [Game Server Deployment](assets/gaming.pdf)
+1. [BETA/LAUNCHED] [Game Server Deployment](assets/portfolio/gaming.pdf)
 
 # Misc work
 
