@@ -4,19 +4,20 @@ layout: home
 permalink: /
 ---
 
+These are currently the only public facing products that I can host on a public site, for vision work, please ask for it separately.
 
 # Google Cloud Security
 
-1. [LAUNCHED] [Self Driving Cloud, IAM Role Recommender](assets/portfolio/rolerecommender.pdf)
-2. [LAUNCHED] [Self Driving Cloud, Troubleshooter](assets/portfolio/troubleshooter.pdf)
-3. [LAUNCHED] [Self Driving Cloud, Simulator](assets/simulator)
-4. [LAUNCHED] [Self Driving Cloud, Policy Analyzer](assets/analyzer.pdf)
-5. [LAUNCHED] [Recommendation Hub](assets/portfolio/rechub.pdf)
-6. [VISION WORK] [One Stop Policy Shop](assets/vision.pdf)
-7. [EAP] [Access Elevation](assets/accesselevation.pdf)
-8. [BETA] [Cloud Gaming Server Deployment](assets/accesselevation.pdf)
-9. [LAUNCHED] [Binary Authorization](assets/portfolio/binauth.pdf)
-10. [LAUNCHED] [SuperQuota](assets/portfolio/quota.pdf)
+1. [GA/LAUNCHED] [Self Driving Cloud, IAM Role Recommender](assets/portfolio/rolerecommender.pdf)
+2. [GA/LAUNCHED] [Self Driving Cloud, Troubleshooter](assets/portfolio/troubleshooter.pdf)
+3. [BETA/LAUNCHED] [Self Driving Cloud, Simulator](assets/simulator)
+4. [BETA/LAUNCHED] [Self Driving Cloud, Policy Analyzer](assets/analyzer.pdf)
+5. [GA/LAUNCHED] [Binary Authorization](assets/portfolio/binauth.pdf)
+6. [GA/LAUNCHED] [SuperQuota](assets/portfolio/quota.pdf)
+
+# Google Game Servers
+
+1. [BETA/LAUNCHED] [Game Server Deployment](assets/gaming.pdf)
 
 # Misc work
 
