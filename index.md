@@ -4,7 +4,7 @@ layout: home
 permalink: /
 ---
 
-These are the only products I've worked on that I can host on a public site. I am unable to show all 3 1/2 years of work that have not launched yet. For vision work, please ask for it separately.
+These are the only products I've worked on that I can host on a public site. I am unable to show work that has not launched yet. For vision work, please ask for it separately.
 
 # Google Cloud Security
 
