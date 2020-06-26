@@ -12,7 +12,9 @@ permalink: /about
 
 > I love to influence the API, and build products that bridges the relationship between UX & eng.
 
-> Been in tech for roughly 7+ years (not including the teen years making Xanga layouts via scripting in javascript in the browser). I've done the gamut of start-ups, web development, UX/UI, and product development.
+> Been in tech for 7+ years (not including teen years making Xanga layouts via scripting in the browser). I've done the gamut of start-ups, agencies, government work, big tech, incubators, UX/UI, front end engineering, and product development.
+
+> Based in Seattle, but have made memories in San Francisco, Portland, and Los Angeles.
 
 # education
 
@@ -26,4 +28,4 @@ permalink: /about
 
 # life outside pixels 
 
-> Outside of UX, I love film photography, my pet rabbit Nimbus 2000, reading fiction, writing essays, watching K-dramas, going on walks of all kinds, and working on my skincare line.
+> Outside of UX, I love film photography, my pet rabbit Nimbus 2000, reading fiction, writing essays, watching K-dramas, going on walks of all kinds, and traveling to far away places, and ones close to home.
